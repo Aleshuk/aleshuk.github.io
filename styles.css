@@ -1,57 +1,29 @@
 body, html {
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
+    height: 100%;
     font-family: 'Arial', sans-serif;
 }
 
-section {
-    width: 100%;
-    min-height: 100vh;
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#home {
+.hero-section {
     background: url('background_flow_leaves.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: white;
-    text-align: center;
-}
-
-#blog {
-    background-color: #f0f0f0; /* Light grey background for the blog section */
-}
-
-.section-header {
-    width: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
 }
 
-.manage-buttons button {
-    padding: 10px;
-    margin-left: 10px;
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
 }
 
-.posts-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 20px;
+p {
+    font-size: 1.25rem;
+    max-width: 800px;
 }
-
-.post {
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 10px;
-    width: 30%;
-    margin: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
