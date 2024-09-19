@@ -1,8 +1,8 @@
 body, html {
     margin: 0;
     padding: 0;
+    height: 100%;
     font-family: 'Arial', sans-serif;
-    scroll-behavior: smooth; /* Enables smooth scrolling */
 }
 
 .hero-section {
@@ -18,26 +18,9 @@ body, html {
     padding: 20px;
 }
 
-.blog-section, .about-section {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-}
-
-.blog-section {
-    background-color: #f4f4f9; /* Light grey background */
-}
-
-.about-section {
-    background-color: #e2e2e2; /* Slightly darker grey background */
-}
-
-h1, h2 {
+h1 {
     font-size: 2.5rem;
+    margin-bottom: 0.5rem;
 }
 
 p {
