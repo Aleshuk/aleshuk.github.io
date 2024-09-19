@@ -6,7 +6,7 @@ body, html {
 }
 
 .hero-section {
-    background: url('path_to_your_image/image.png') no-repeat center center fixed;
+    background: url('background_flow_leaves.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
