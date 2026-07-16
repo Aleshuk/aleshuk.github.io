@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "welcome-to-digital-oak",
+    "type": "blog",
+    "title": "Welcome to my Digital Oak",
+    "date": "2026-07-16",
+    "excerpt": "Why I planted this little corner of the internet, and what you'll find growing here.",
+    "tags": ["personal", "meta"]
+  },
+  {
+    "slug": "thinking-fast-and-slow",
+    "type": "book",
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "date": "2026-07-10",
+    "rating": 5,
+    "excerpt": "A foundational read on how we actually make decisions — and how often our intuition misleads us.",
+    "tags": ["psychology", "decisions"]
+  },
+  {
+    "slug": "reading-note-example",
+    "type": "thought",
+    "date": "2026-07-14",
+    "body": "The best dashboards answer a question before you finish asking it. If someone has to *study* your chart, it's a diagram, not a decision aid.",
+    "tags": ["data", "design"]
+  },
+  {
+    "slug": "thought-oak",
+    "type": "thought",
+    "date": "2026-07-15",
+    "body": "Oaks grow slowly and that's the point. Compound interest works on knowledge too — a page a day is a library in a decade. 🌳",
+    "tags": ["growth"]
+  }
+]

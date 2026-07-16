@@ -1,15 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Alona's Digital Oak</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alona's Digital Oak — Home</title>
+  <meta name="description" content="Welcome to Alona's Digital Oak — reflections on data, technology, innovation, book reviews and thoughts along the way.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <!-- Social sharing -->
+  <meta property="og:title" content="Alona's Digital Oak">
+  <meta property="og:description" content="Reflections on data, technology, innovation — book reviews, a blog, and thoughts.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="hero-section">
-        <h1>Welcome to Alona’s Digital Oak</h1>
-        <p>Rooted in strength, much like the oak tree from which my name originates, I branch into the world of data, technology, and innovation. Here, I’ll share insights and discoveries, blending the wisdom of nature with the precision of tech.</p>
+
+  <!-- ============ NAV ============ -->
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path fill="currentColor" d="M16 3c-.6 2.4-2.4 3.6-4.3 4.1 1.9.7 3.1 2.1 3.1 4.5-1.9-.7-3.6-.2-5.3.7 1.9.4 3.2 1.6 3.6 3.5-2-.5-3.7.1-5.3 1.3 2 .1 3.5 1.1 4.1 2.9-2-.1-3.6.8-4.8 2.4 2-.2 3.6.4 4.6 1.9-1.8.4-3.1 1.4-3.8 3.2 2.4-.7 4.3-.4 5.7 1.1V32h3v-3.4c1.4-1.5 3.3-1.8 5.7-1.1-.7-1.8-2-2.8-3.8-3.2 1-1.5 2.6-2.1 4.6-1.9-1.2-1.6-2.8-2.5-4.8-2.4.6-1.8 2.1-2.8 4.1-2.9-1.6-1.2-3.3-1.8-5.3-1.3.4-1.9 1.7-3.1 3.6-3.5-1.7-.9-3.4-1.4-5.3-.7 0-2.4 1.2-3.8 3.1-4.5C18.4 6.6 16.6 5.4 16 3Z"/></svg>
+        <span>Alona's Digital Oak</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="books.html">Book Reviews</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="thoughts.html">Thoughts</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-tools">
+        <button class="icon-btn" onclick="toggleTheme()" aria-label="Toggle dark mode" title="Toggle theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        </button>
+        <button class="icon-btn nav-toggle" onclick="toggleNav()" aria-label="Menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
     </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero">
+    <div class="container hero-grid">
+      <div class="hero-photo">
+        <!-- Swap this block for your photo:
+             <img src="assets/img/alona.jpg" alt="Alona"> -->
+        <div class="placeholder">Your photo goes here<br>(add <code>assets/img/alona.jpg</code>)</div>
+      </div>
+      <div class="hero-text">
+        <p class="eyebrow">Welcome to Alona's Digital Oak</p>
+        <h1>Hi, I'm <span class="accent">Alona</span></h1>
+        <p class="lead">Rooted in strength, much like the oak tree from which my name originates, I branch into the world of data, technology, and innovation.</p>
+        <p>This is my digital space, where I share my thoughts, experiences, and insights — reflections on my journey, both personal and professional. From travel adventures to career milestones, I blend the wisdom of nature with the precision of tech, and offer a mix of life stories and lessons learned along the way.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="blog.html">Read the blog</a>
+          <a class="btn btn-ghost" href="books.html">Book reviews</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ QUICK LINKS ============ -->
+  <main class="section">
+    <div class="container">
+      <div class="card-grid">
+        <article class="card"><a class="card-link" href="books.html"><div class="card-body">
+          <span class="tag">Reading</span>
+          <h3>Book Reviews</h3>
+          <p>Notes and honest reviews of the books shaping how I think.</p>
+        </div></a></article>
+        <article class="card"><a class="card-link" href="blog.html"><div class="card-body">
+          <span class="tag">Writing</span>
+          <h3>Blog</h3>
+          <p>Longer reflections on data, technology, and life.</p>
+        </div></a></article>
+        <article class="card"><a class="card-link" href="thoughts.html"><div class="card-body">
+          <span class="tag">Notes</span>
+          <h3>Thoughts</h3>
+          <p>Short-form ideas, sparks, and things worth remembering.</p>
+        </div></a></article>
+      </div>
+    </div>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>© <span id="year"></span> Alona · Digital Oak 🌳</p>
+      <div class="footer-links">
+        <a href="books.html">Books</a>
+        <a href="blog.html">Blog</a>
+        <a href="thoughts.html">Thoughts</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>
