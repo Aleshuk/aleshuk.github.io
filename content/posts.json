@@ -1,5 +1,13 @@
 [
   {
+    "slug": "ai-agent-ticket-workflow",
+    "type": "blog",
+    "title": "Shipping data tickets with an AI agent",
+    "date": "2026-08-06",
+    "excerpt": "An agent left alone produces work that looks finished. The fix isn't a better prompt — it's two places where it's forced to stop.",
+    "tags": ["data", "ai", "dbt", "workflow"]
+  },
+  {
     "slug": "welcome-to-digital-oak",
     "type": "blog",
     "title": "Welcome to my Digital Oak",
