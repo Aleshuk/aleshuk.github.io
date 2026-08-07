@@ -1,5 +1,13 @@
 [
   {
+    "slug": "my-path-to-teaching-and-data-analysis",
+    "type": "blog",
+    "title": "My Path to Teaching and Data Analysis",
+    "date": "2026-08-07",
+    "excerpt": "From a French-language school to a physics PhD to data analytics — how falling for math turned into a lifelong pull toward teaching.",
+    "tags": ["personal", "teaching", "career", "data"]
+  },
+  {
     "slug": "ai-agent-ticket-workflow",
     "type": "blog",
     "title": "Shipping data tickets with an AI agent",
@@ -16,6 +24,20 @@
     "tags": ["personal", "meta"]
   },
   {
+    "slug": "thought-oak",
+    "type": "thought",
+    "date": "2026-07-15",
+    "body": "Oaks grow slowly and that's the point. Compound interest works on knowledge too — a page a day is a library in a decade. 🌳",
+    "tags": ["growth"]
+  },
+  {
+    "slug": "reading-note-example",
+    "type": "thought",
+    "date": "2026-07-14",
+    "body": "The best dashboards answer a question before you finish asking it. If someone has to *study* your chart, it's a diagram, not a decision aid.",
+    "tags": ["data", "design"]
+  },
+  {
     "slug": "thinking-fast-and-slow",
     "type": "book",
     "title": "Thinking, Fast and Slow",
@@ -26,17 +48,18 @@
     "tags": ["psychology", "decisions"]
   },
   {
-    "slug": "reading-note-example",
+    "slug": "favorite-quotes",
     "type": "thought",
-    "date": "2026-07-14",
-    "body": "The best dashboards answer a question before you finish asking it. If someone has to *study* your chart, it's a diagram, not a decision aid.",
-    "tags": ["data", "design"]
+    "date": "2024-09-16",
+    "body": "## Old and new favorite quotes (internet, books)\n\nA running list of lines I've collected over the years — from the internet, from books, from physics department hallways. Half wisdom, half nonsense, kept in the original Russian.\n\n> Думай! Думай, чтобы мы сделали, будь у нас мозги!\n\n*— Unknown*\n\n> В курении главное не табак, главное — ты при деле.\n\n*— Unknown*\n\n> Самое обидное — это когда ты продумал в голове диалог, а твой собеседник говорит не по тексту.\n\n*— Unknown*\n\n> Считай перед сном интегралы — овечки для слабаков!\n\n*— Someone from the physics department*\n\n> Глупо принимать близко к сердцу то, что можно послать в задницу.\n\n*— Unknown*\n\n> Вот так едешь в транспорте рядом с человеком и ничего не подозреваешь — а он эльф 80-го уровня!!!\n\n*— Unknown*\n\n> Мне нравится сравнивать себя с механизмами, потому что механизмы легко починить.\n\n*— Unknown*\n\n> Сказки происходят только в сказках.\n\n*— Бегбедер*\n\n> Детство — счастливейшая пора: бежишь ночью из туалета и радуешься, что тебя никто не съел!\n\n*— Unknown*\n\n> ...согласно Диогену, Платон был зачат непорочно.\n\n*— Unknown*\n\n> Мужчина от женщины отличается тем, что у мужчины галстук, а у женщины — бусы, дом, дети и... муж в галстуке.\n\n*— Unknown*\n\n> Кошек не любит только тот, кто еще не встретил свою кошку ;)\n\n*— Unknown*\n\n> Выходил из себя 32 минуты назад.\n\n*— Unknown*\n\n> Настоящая ложь просто обязана быть красивой, тогда в нее обязательно поверят. Лишь правда может позволить себе роскошь уродства.\n\n*— Лукьяненко*\n\n> Когда перекошен весь мир, легче признать ненормальным того, кто держится прямо.\n\n*— Лукьяненко*\n\n> Чтобы сделать что-нибудь более позитивным, нужно всего-навсего удалить электрон.\n\n*— Someone from the physics department*\n\n> — Почему у историков и физиков такой тяжёлый взгляд?\n> — Потому что историки помнят, что было, а физики знают, что будет…\n\n*— Unknown*\n\n> Борьба за мир — это как секс за девственность.\n\n*— Unknown*\n\n> Что за дебильная фраза «Ежу понятно»? Мне вот многое из того, что «ежу понятно», не понятно! Ненавижу ежей, суки слишком умные…\n\n*— Unknown*\n\n> Выходя из себя, закрывайте за собой рот.\n\n*— Unknown*\n\n> Танец — это больше, чем язык тела: темп нарастает, головы раскалываются, тут важен звук, а не мелодия. Никакой передышки, поскольку бешеный стиль должен гармонировать с бешенством движений.\n\n*— Бегбедер*",
+    "tags": ["quotes", "humor", "personal"]
   },
   {
-    "slug": "thought-oak",
-    "type": "thought",
-    "date": "2026-07-15",
-    "body": "Oaks grow slowly and that's the point. Compound interest works on knowledge too — a page a day is a library in a decade. 🌳",
-    "tags": ["growth"]
+    "slug": "burning-man",
+    "type": "blog",
+    "title": "Burning Man",
+    "date": "2024-09-14",
+    "excerpt": "Five years after first seeing it on video, I finally made it to Black Rock City — and found dust storms, radical generosity, and unexpectedly, my own Ukraine.",
+    "tags": ["personal", "travel", "burning-man", "ukraine"]
   }
 ]
